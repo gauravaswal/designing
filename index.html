@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Header Example</title>
+    <style>
+        /* CSS styles for the header */
+        header {
+            /* background-color: #1E1E1E; */
+            padding: 20px;
+
+        }
+
+        .header-main {
+            display: flex;
+            align-items: center;
+            width: 80%;
+            padding: 0;
+            margin: 0 auto;
+
+        }
+
+        .logo {
+            width: 20%;
+            float: left;
+        }
+
+        .navigation {
+            width: 50%;
+            float: right;
+        }
+
+        .tagline {
+            width: 30%;
+            clear: both;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #007500;
+        }
+
+        .hero-section {
+            background-image: url('./public/Rectangle\ 351.png');
+            background-size: cover;
+            /* Optional: Adjust the image sizing */
+            /* Additional styles for the element */
+            height: 500px;
+        }
+
+        .tagline span {
+            background: #007500;
+            border-radius: 3px;
+            color: white;
+            padding: 15px 58px;
+            border: 1px solid black;
+        }
+         .hero-section-text {
+            width: 50%;
+         }
+         .hero-section-image{
+            width: 50%;
+         }
+         .hero-section {
+            display: flex;
+          justify-content: space-between;
+         }
+    </style>
+</head>
+
+<body>
+    <div>
+
+        <header>
+            <div class="header-main">
+                <div class="logo">
+                    <img src="./public/GROSTORE.png" alt="logo" />
+                </div>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CATEGORIES</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+
+                <div>
+
+                </div>
+                <div class="tagline">
+                    <span>
+                        SHOP NOW
+                    </span>
+                </div>
+            </div>
+        </header>
+        <div class="hero-section">
+            <div class="hero-section-text">
+                <span>
+                    There are many variations of passages of Lorem Ipsum available, but the majority
+                    suffered alteration in some form, by injected humour, or randomised words which
+                    to be sure there isn't anything embarrassing hidden in the middle of text.
+                </span>
+
+            </div>
+
+            <div class="hero-section-image">
+                <img src="./public/Rectangle 352.png" alt="logo" />
+                <!-- <img src="./public/Header-image.png" alt="logo" />
+                <img src="./public/image 26.png" alt="logo" /> -->
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
